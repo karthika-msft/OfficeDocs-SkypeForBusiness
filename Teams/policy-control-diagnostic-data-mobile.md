@@ -70,6 +70,13 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **anonymousMeetingSignInWelcome** - The **Sign in and join** is selected on an anonymous join meeting landing page.
 - **anonymousMeetingToggleMuted** - The number of times the mute toggle button was selected.
 - **anonymousMeetingToggleVideo** - The number of times the video toggle button was selected.
+- **app_incremental_sync_conversation_launch** - Used to measure time taken to sync latest conversation updates during cold launch.
+- **app_incremental_sync_conversation_resume** - Used to measure the time taken to sync latest conversation updates during warm/hot launch.
+- **app_incremental_sync_launch** - Used to measure pill count updation time during cold launch.
+- **app_incremental_sync_resume** - Used to measure pill count updation time during warm/hot launch.
+- **app_start_cold** - Used to measure cold app boot time.
+- **app_start_hot** - Used to measure hot app boot time.
+- **app_start_warm** - Used to measure warm app boot time.
 - **appKilled** - The application is terminated.
 - **approveTimeOffRequest** -  When a Frontline Worker (FLW) Manager approves a Frontline Worker request to take time off.
 - **assigneeChange** - Triggers when a new assignee is added to a task item.
