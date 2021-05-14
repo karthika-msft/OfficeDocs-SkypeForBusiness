@@ -70,6 +70,13 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **anonymousMeetingSignInWelcome** - The **Sign in and join** is selected on an anonymous join meeting landing page.
 - **anonymousMeetingToggleMuted** - The number of times the mute toggle button was selected.
 - **anonymousMeetingToggleVideo** - The number of times the video toggle button was selected.
+- **app_incremental_sync_conversation_launch** - Used to measure time taken to sync latest conversation updates during cold launch. (Android)
+- **app_incremental_sync_conversation_resume** - Used to measure the time taken to sync latest conversation updates during warm/hot launch. (Android)
+- **app_incremental_sync_launch** - Used to measure pill count updation time during cold launch. (Android)
+- **app_incremental_sync_resume** - Used to measure pill count updation time during warm/hot launch. (Android)
+- **app_start_cold** - Used to measure cold app boot time. (Android)
+- **app_start_hot** - Used to measure hot app boot time. (Android)
+- **app_start_warm** - Used to measure warm app boot time. (Android)
 - **appKilled** - The application is terminated.
 - **approveTimeOffRequest** -  When a Frontline Worker (FLW) Manager approves a Frontline Worker request to take time off.
 - **assigneeChange** - Triggers when a new assignee is added to a task item.
@@ -107,6 +114,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
 - **brbFormOpened** - An event sent when the BRB form is opened.
 - **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
+- **brbFormSubmitted** - An event sent when the user selects **Submit** on the feedback form. (Android)
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -761,6 +769,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **ocvFormCancelled** - An event sent when the OCV feedback form is cancelled and the user returns to the app.
 - **ocvFormOpened** - An event sent when the OCV form is opened.
 - **ocvFormSubmit** - An event sent when the user clicks submit on the OCV feedback form.
+- **ocvFormSubmitted** - An event sent when the user clicks **Submit** on the OCV feedback form. (Android)
 - **offerRecipientClicked** - Only logged if the request being sent is an offer. The user enters the team member picker to offer a shift. Offering means offering a shift time off.
 - **offerSwapShiftFromL1** - The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed**.
 - **offerSwapShiftFromL1Triggered** - A user offers to swap a shift with another user.
